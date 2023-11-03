@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>BEM</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a href="/" class="header__logo"
+          ><span class="header__logo_active">Freelancer</span> portfolio</a
+        >
+        <input id="menuCheckbox" type="checkbox">
+        <ul class="header__ul">
+          <li class="header__li">
+            <a href="#projects" class="header__a">Projects</a>
+          </li>
+          <li class="header__li"><a href="/" class="header__a">Skills</a></li>
+          <li class="header__li">
+            <a href="/" class="header__a">Contacts</a>
+          </li>
+        </ul>
+        
+        <label for="menuCheckbox" class="header__burger">
+          <span class="material-icons icon-menu">menu</span>
+        </label>
+        
+      </div>
+    </header>
+
+
+    
+
+    <section class="mein-section">
+      <div class="container">
+        <div class="info">
+          <div class="info__title">
+            Hi, my name is <span class="info__title_active">Yuri</span>
+          </div>
+          <div class="info__role">I'm a frontend developer</div>
+          <div class="info__desc">with passion for learning and creating.</div>
+          <a href="/" class="btn info__btn">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-break"><a name="projects"></a></div>
+
+    <section class="projects">
+      <div class="projects__title">Projects</div>
+      <div class="container">
+        <div class="projects__list">
+          <div class="projects__item item">
+            <div class="item__img">
+              <img src="/img/01.png" alt="Gaming streaming portal" />
+            </div>
+            <div class="item__title">Gaming streaming portal</div>
+          </div>
+          <div class="projects__item item">
+            <div class="item__img">
+              <img src="/img/02.png" alt="Video service" />
+            </div>
+            <div class="item__title">Video service</div>
+          </div>
+          <div class="projects__item item">
+            <div class="item__img">
+              <img src="/img/03.png" alt="Video service" />
+            </div>
+            <div class="item__title">Video service</div>
+          </div>
+          <div class="projects__item item">
+            <div class="item__img">
+              <img src="/img/04.png" alt="Dating app" />
+            </div>
+            <div class="item__title">Dating app</div>
+          </div>
+          <div class="projects__item item">
+            <div class="item__img">
+              <img src="/img/05.png" alt="Landing" />
+            </div>
+            <div class="item__title">Landing</div>
+          </div>
+          <div class="projects__item item">
+            <div class="item__img">
+              <img src="/img/06.png" alt="Gaming community" />
+            </div>
+            <div class="item__title">Gaming community</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__icons">
+        <div class="footer__img">
+            <a href="/"><img src="/img/vk.png" alt="vk" /></div></a>
+        <div class="footer__img">
+          <a href="/"><img src="/img/instagram.png" alt="instagram" /></a>
+        </div>
+        <div class="footer__img">
+          <a href="/"><img src="/img/twitter.png" alt="twitter" /></a>
+        </div>
+        <div class="footer__img">
+          <a href="/"><img src="/img/gitHub.png" alt="github" /></a>
+        </div>
+        <div class="footer__img">
+          <a href="/"><img src="/img/linkedIn.png" alt="linkedIN" /></a>
+        </div>
+      </div>
+      <div class="footer__autor">© 2022 frontend-dev.com</div>
+    </footer>
+  </body>
+</html>
